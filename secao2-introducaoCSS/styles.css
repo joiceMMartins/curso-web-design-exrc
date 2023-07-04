@@ -1,0 +1,33 @@
+body {
+    background-color: #F8F1F1;
+    margin: 0;
+}
+h1, h2 {
+    background-color: #4C0033;
+    color: #7895CB;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 5px;
+    border-bottom: 3px solid #7895CB;
+    box-sizing: border-box;
+}
+p, h1, h2, li {
+    text-align: center;
+}
+h1 {
+    padding: 15px;
+}
+h2 {
+    width: 75%;
+    padding: 10px;
+}
+ul {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+li {
+    margin-top: 5px;
+}
