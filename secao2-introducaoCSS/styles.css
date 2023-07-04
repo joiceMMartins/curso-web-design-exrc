@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 h1, h2 {
-    background-color: #4C0033;
+    background-color: #790252;
     color: #7895CB;
     width: 80%;
     margin-left: auto;
@@ -13,21 +13,63 @@ h1, h2 {
     border-bottom: 3px solid #7895CB;
     box-sizing: border-box;
 }
-p, h1, h2, li {
+p, h1, h2, .lista-cursos-item {
     text-align: center;
 }
 h1 {
     padding: 15px;
+    border-bottom: none;
+    margin-bottom: 0;
 }
 h2 {
     width: 75%;
     padding: 10px;
 }
-ul {
+.subtitle {
+    margin-top: 0;
+    background-color: #7895CB;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 3px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.navegacao {
+    display:block;
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+.navegacao-item {
+    display: inline-block;
+    background-color: #790252;
+    padding: 30px;
+    border-radius: 5px;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.navegacao-item a:link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #7895CB;
+}
+
+.navegacao-item:hover {
+    background-color: #4A55A2;
+}
+.navegacao-item a:hover {
+    font-size: large;
+}
+
+.lista-cursos {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
-li {
+.lista-cursos-item {
     margin-top: 5px;
 }
