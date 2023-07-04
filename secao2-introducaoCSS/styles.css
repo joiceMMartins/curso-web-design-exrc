@@ -64,6 +64,9 @@ h2 {
 .navegacao-item a:hover {
     font-size: large;
 }
+.navegacao-item a:visited {
+    color: #F8F1F1;
+}
 
 .lista-cursos {
     width: 60%;
