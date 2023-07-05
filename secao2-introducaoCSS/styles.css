@@ -13,9 +13,15 @@ h1, h2 {
     border-bottom: 3px solid #ff99f6;
     box-sizing: border-box;
     text-shadow: 1px 0.5px #5e005a;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 600;
 }
 p, h1, h2, .lista-cursos-item {
     text-align: center;
+}
+p, li {
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 400;
 }
 h1 {
     padding: 15px;
