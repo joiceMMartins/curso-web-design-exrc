@@ -1,17 +1,18 @@
 body {
-    background-color: #F8F1F1;
+    background-color: #fff2fe;
     margin: 0;
 }
 h1, h2 {
-    background-color: #790252;
-    color: #7895CB;
+    background-color: #ffc6fd;
+    color: #cf00ca;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
     border-radius: 5px;
-    border-bottom: 3px solid #7895CB;
+    border-bottom: 3px solid #ff99f6;
     box-sizing: border-box;
+    text-shadow: 1px 0.5px #5e005a;
 }
 p, h1, h2, .lista-cursos-item {
     text-align: center;
@@ -26,8 +27,9 @@ h2 {
     padding: 10px;
 }
 .subtitle {
+    color: #ffc6fd;
     margin-top: 0;
-    background-color: #7895CB;
+    background-color: #ff5def;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -46,7 +48,7 @@ h2 {
 }
 .navegacao-item {
     display: inline-block;
-    background-color: #790252;
+    background-color: #ff99f6;
     padding: 30px;
     border-radius: 5px;
     list-style-type: none;
@@ -55,17 +57,17 @@ h2 {
 .navegacao-item a:link {
     text-decoration: none;
     font-weight: bold;
-    color: #7895CB;
+    color: #fff;
 }
 
 .navegacao-item:hover {
-    background-color: #4A55A2;
+    background-color: #ffc6fd;
 }
 .navegacao-item a:hover {
     font-size: large;
 }
 .navegacao-item a:visited {
-    color: #F8F1F1;
+    color: #5e005a;
 }
 
 .lista-cursos {
