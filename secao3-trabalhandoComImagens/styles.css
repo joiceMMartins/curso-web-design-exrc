@@ -1,0 +1,62 @@
+:root{
+    font-size: 20px;
+    color: #393b40;
+    font-family: 'Belanosima', sans-serif;
+}
+body {
+    margin: 0;
+    background-image: url(imagens/d1e97657-6dd3-4ff2-acef-9ffef75efec1.jpg);
+    background-repeat: repeat-y;
+    background-size: 18.2rem;
+    background-attachment: fixed;
+    background-position: top left;
+    background-color: #cdd0d4;
+}
+main {
+    margin: 0;
+    width: 45rem;
+    margin-left: auto;
+    background-color: #cdd0d4;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.espaco-para-foto {
+    width: 25rem;
+    height: 15rem;
+    background-color: #aaafb6;
+}
+.espaco-para-foto:hover {
+    background-image: none;
+}
+h1, h2, h3, .espaco-para-foto {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 1.5px 1px #79808b;
+}
+h1 {
+    margin-top: 0;
+}
+.foto1 {
+    background-image: url(imagens/18\ Curious\ Cats\ Hilariously\ Bumping\ Into\ Cameras.jpg);
+    background-size: 5rem;
+    background-repeat: repeat;
+}
+.foto2 {
+    background-image: url(imagens/02df728b-5874-4696-8dc4-d2aead0706b5.jpg);
+    background-size: 5rem;
+    background-repeat: repeat-y;
+}
+.foto3 {
+    background-image: url(imagens/a254f5f7-6340-42d7-bb17-8e084cef632b.jpg);
+    background-size: 5rem;
+    background-repeat: repeat-x;
+}
+.foto4 {
+    background-image: url(imagens/a23a45ad-7aaf-450c-836c-5803924d5a20.jpg);
+    background-size: contain;
+}
+.foto5 {
+    background-image: url(imagens/download\ \(9\).jpg);
+    background-size: cover;
+}
