@@ -7,21 +7,21 @@ body {
     margin: 0;
     background-image: url(imagens/d1e97657-6dd3-4ff2-acef-9ffef75efec1.jpg);
     background-repeat: repeat-y;
-    background-size: 18.2rem;
+    background-size: 30%;
     background-attachment: fixed;
     background-position: top left;
     background-color: #cdd0d4;
 }
 main {
     margin: 0;
-    width: 45rem;
+    width: 70%;
     margin-left: auto;
     background-color: #cdd0d4;
     padding-bottom: 2rem;
     padding-top: 2rem;
 }
 .espaco-para-foto {
-    width: 25rem;
+    width: 50%;
     height: 15rem;
     background-color: #aaafb6;
 }
