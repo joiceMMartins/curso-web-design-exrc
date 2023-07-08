@@ -2,6 +2,10 @@ body {
     margin: 0;
     background-color: #faf5f2;
 }
+.menu-pagina-item li:hover {
+    background-color: #fff;
+    opacity:unset;
+}
 .titulo-pagina {
     text-align: center;
     padding-top: 2rem;
@@ -59,21 +63,33 @@ ul {
 }
 
 .alinhamento-curso {
-    margin-left: 200px;
+    margin-left: auto;
     margin-right: auto;
 }
 
 .article-curso {
     padding-bottom: 5rem;
-    width: 80%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
 }
 
 .titulo-curso {
     text-align: center;
     font-family: 'Righteous';
     font-size: 1.5rem;
+    border-bottom: 2px solid #331b17;
 }
 
+.descricao-curso {
+    padding-left: 7rem;
+    font-family: 'Righteous', cursive;
+    font-weight: 40;
+}
+.alinhamento-horizontal {
+    padding-top: 7%;
+}
 .imagem-css {
     background-image: url(imagens/css.avif);
     background-size: contain;
@@ -103,6 +119,34 @@ ul {
     float: left;
 }
 
+.footer-saiba-mais {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.5rem;
+}
+.saiba-mais {
+    padding: 0.1rem;
+    border-radius: 5px;
+    border: 2px solid #331b17;
+}
+.saiba-mais:hover {
+    background-color: #fff;
+}
+.p-saiba-mais {
+    text-align: center;
+    text-transform: lowercase;
+}
+.p-saiba-mais a:visited {
+    text-decoration: underline;
+}
+
+.footer-saiba-mais a {
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    color: #331b17;
+}
+
 .rodape-pagina {
     background-color: #331b17;
     padding: 3rem;
@@ -112,6 +156,5 @@ ul {
     color: #faf5f2;
     text-align: center;
     text-transform: lowercase;
-    color: #331b17;
     font-family: 'Righteous', cursive;
 }
