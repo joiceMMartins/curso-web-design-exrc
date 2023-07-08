@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    background-color: #faf5f2;
+}
+.titulo-pagina {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Righteous', cursive;
+    color: #faf5f2;
+    text-shadow: 1px 1px #331b17;
+}
+.subtitulo-pagina {
+    text-align: center;
+    color: #331b17;
+    padding-top: 0.5rem;
+    background-color: #faf5f2;
+    opacity: 0.6;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
+    text-transform: lowercase;
+}
+.cabecalho-pagina {
+    background-image: url(imagens/comput.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display:block;
+}
+li {
+    display: inline-block;
+    background-color: #faf5f2;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    color: #331b17;
+    font-weight: bold;
+    text-transform: lowercase;
+    opacity: 0.6;
+    font-family: 'Righteous', cursive;
+    width: 11.3%;
+    text-align: center;
+}
+ul {
+    width: 33%;
+    margin-left: 63%;
+}
+
+.cursos {
+    padding: 5rem;
+}
+
+.alinhamento-curso {
+    margin-left: 200px;
+    margin-right: auto;
+}
+
+.article-curso {
+    padding-bottom: 5rem;
+    width: 80%;
+}
+
+.titulo-curso {
+    text-align: center;
+    font-family: 'Righteous';
+    font-size: 1.5rem;
+}
+
+.imagem-css {
+    background-image: url(imagens/css.avif);
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.imagem-html {
+    background-image: url(imagens/html.png);
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.imagem-javascript {
+    background-image: url(imagens/JS.png);
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.imagem-programacao {
+    background-image: url(imagens/fluxograma.png);
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.rodape-pagina {
+    background-color: #331b17;
+    padding: 3rem;
+}
+
+.texto-rodape {
+    color: #faf5f2;
+    text-align: center;
+    text-transform: lowercase;
+    color: #331b17;
+    font-family: 'Righteous', cursive;
+}
