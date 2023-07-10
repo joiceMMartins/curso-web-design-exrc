@@ -1,0 +1,61 @@
+:root {
+    font-family: 'Nanum Myeongjo', serif;
+}
+body {
+    margin: 0;
+    background-color: #972715;
+}
+p, h2 {
+    color: #f0f9f2;
+}
+
+.cabecalho-pagina {
+    background-image: url(imagens/os-amantes.jpg);
+    background-size:auto;
+    background-position:center;
+    background-repeat:repeat-x;
+    padding-top: 20px;
+    height: 450px;
+    box-sizing: border-box;
+}
+.menu-navegacao {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem 1rem 1rem;
+    box-sizing: border-box;
+}
+.menu-navegacao-lista {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    display:flex;
+    justify-content: space-around;
+}
+
+.menu-navegacao-item {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    color: #f0f9f2;
+    width: 20%;
+}
+
+.menu-navegacao-item a:hover {
+   border-bottom: 4px solid white;
+   width: 200px;
+   cursor: pointer;
+}
+
+.div-titulo {
+    display: flex;
+    margin-top: 7rem;
+    justify-content: center;
+}
+
+.div-titulo h1 {
+    color: #f0f9f2;
+    font-weight: 600;
+    font-size: 2rem;
+}
