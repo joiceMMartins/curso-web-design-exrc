@@ -5,12 +5,15 @@ body {
     margin: 0;
     background-color: #972715;
 }
-p, h2 {
+p {
     color: #f0f9f2;
+    font-family: 'Raleway', sans-serif;
 }
 
-p {
-    font-family: 'Raleway', sans-serif;
+h2 {
+    color: #471108;
+    font-weight: bold;
+    text-shadow: 1.6px -1.5px #f0f9f2;
 }
 
 .cabecalho-pagina {
@@ -66,7 +69,7 @@ p {
 
 .resumo-vanguardas {
     width: 80%;
-    margin-top: 3rem;
+    margin-top: 7.5rem;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(66, 15, 8, 0.4);
@@ -80,4 +83,75 @@ p {
     margin-right: auto;
     text-transform: lowercase;
     text-shadow: 1px 0.2px #000;
+}
+article {
+    margin-top: 5rem;
+}
+
+.futurismo-background {
+    background-image: url(imagens/laugher-umberto-boccioni.jpg);
+    background-size:cover;
+    background-position:top left;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.espaco-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.futurismo-background-texto {
+    width: 50%;
+    background-color: rgba(66, 15, 8, 0.7);
+    padding: 3rem;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.div-titulo-futurismo {
+    margin-left: auto;
+    margin-right: auto;
+    height: 0;
+}
+
+.titulo-futurismo{
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: bold;
+    position:relative;
+    bottom: -2.6rem;
+}
+.espaco-texto {
+    width: 50%;
+}
+
+.espaco-artes {
+    width: 50%;
+    display:flex;
+    align-items: center;
+}
+
+.espaco-artes-futurismo1 {
+    height: 150px;
+    width: 250px;
+    background-image: url(imagens/futurismo/depero-fortunato.webp);
+    background-size:cover;
+    z-index: 1;
+    position: relative;
+    top: 2rem;
+}
+
+.espaco-artes-futurismo2 {
+    height: 150px;
+    width: 250px;
+    background-image: url(imagens/futurismo/depero.jpg);
+    background-size:cover;
+    position:relative;
+    top: -3rem;
+    left: -2rem;
+    z-index: 0;
 }
