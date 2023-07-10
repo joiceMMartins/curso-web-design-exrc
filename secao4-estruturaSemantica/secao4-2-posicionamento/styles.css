@@ -9,6 +9,10 @@ p, h2 {
     color: #f0f9f2;
 }
 
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
 .cabecalho-pagina {
     background-image: url(imagens/os-amantes.jpg);
     background-size:auto;
@@ -58,4 +62,22 @@ p, h2 {
     color: #f0f9f2;
     font-weight: 600;
     font-size: 2rem;
+}
+
+.resumo-vanguardas {
+    width: 80%;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(66, 15, 8, 0.4);
+    padding: 2rem;
+}
+
+.resumo-vanguardas p {
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: lowercase;
+    text-shadow: 1px 0.2px #000;
 }
