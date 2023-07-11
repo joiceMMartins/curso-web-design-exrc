@@ -57,7 +57,7 @@ fieldset {
 
 .nome-email {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     height: 100px;
     gap: 1rem;
 }
