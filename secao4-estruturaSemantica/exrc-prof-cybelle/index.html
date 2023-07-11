@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap" rel="stylesheet">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <main>
+        <h1 class="titulo-formulario">Formulário</h1>
+        <form action="" class="formulario">
+            <p>Por favor preencha os seguintes campos:</p>
+            <fieldset class="nome-email">
+                <legend>Nome e e-mail:</legend>
+                    <label for="nome" class="label-nome">
+                        Nome Completo: <input type="text" id="nome" name="nome" size="35">
+                    </label>
+                    <label for="email" class="label-email">
+                        Seu email: <input type="text" id="email" email="nome" size="35">
+                    </label>
+            </fieldset>
+
+            <fieldset class="sexo">
+                <legend>Sexo:</legend>
+            <label for="feminino">
+                <input type="radio" name="sexo" id="feminino" value="f"> Feminino
+            </label>
+            <label for="masculino">
+                <input type="radio" name="sexo" id="masculino" value="m"> Masculino
+            </label>
+            </fieldset>
+
+            <fieldset class="estado-civil">
+                <legend>Estado Civil:</legend>
+            <label for="solteiro">
+                <input type="radio" name="Civil" id="solteiro" value="s"> Solteiro(a)
+            </label>
+            <label for="casado">
+                <input type="radio" name="Civil" id="casado" value="m"> Casado(a)
+            </label>
+            <label for="vivorciado">
+                <input type="radio" name="Civil" id="divorciado" value="d"> Divorciado(a)
+            </label>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>

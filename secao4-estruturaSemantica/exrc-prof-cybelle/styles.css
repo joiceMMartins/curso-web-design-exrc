@@ -1,0 +1,73 @@
+:root {
+    color: #f3faf9;
+    font-family: 'Crimson Text', serif;
+}
+body {
+    margin:auto;
+    background-image: url(imagens/pexels-maxime-levrel-13881115.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f3faf9;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-formulario {
+    text-align: center;
+    border-bottom: 2px solid #f3faf9;
+}
+
+main {
+    background-color: rgba(46, 112, 115, 0.6);
+    padding: 3rem;
+}
+
+#nome, #email {
+    border-radius: 100px;
+    padding: 7px;
+    border: none;
+    background-color: #f3faf9;
+}
+
+.label-nome, .label-email {
+    text-align: center;
+    margin-top: 0.8rem;
+}
+
+fieldset {
+    width: 80%;
+    margin-top: 1rem;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+.nome-email {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    gap: 1rem;
+}
+
+legend {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sexo, .estado-civil {
+    display: flex;
+    justify-content: space-around;
+}
