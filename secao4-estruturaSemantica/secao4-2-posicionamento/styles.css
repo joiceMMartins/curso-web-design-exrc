@@ -5,6 +5,11 @@ body {
     margin: 0;
     background-color: #972715;
 }
+
+.principal-pagina {
+    margin-bottom: 6rem;
+}
+
 p {
     color: #f0f9f2;
     font-family: 'Raleway', sans-serif;
@@ -90,9 +95,44 @@ article {
 
 .futurismo-background {
     background-image: url(imagens/laugher-umberto-boccioni.jpg);
-    background-size:cover;
-    background-position:top left;
-    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:top center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.surrealismo-background {
+    background-image: url(imagens/surrealismo/rob-gonsalves.jpg);
+    background-size: contain;
+    background-position:top center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.cubismo-background {
+    background-image: url(imagens/cubismo/picasso-2.jpg);
+    background-size:contain;
+    background-position:top center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.expressionismo-background {
+    background-image: url(imagens/expressionismo/noite-estrelada.jpg);
+    background-size:contain;
+    background-position:top center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.dadaismo-background {
+    background-image: url(imagens/dadaismo/recorte_dada.webp);
+    background-size:contain;
+    background-position:top center;
     height: 500px;
     display: flex;
     justify-content: center;
@@ -133,25 +173,123 @@ article {
     width: 50%;
     display:flex;
     align-items: center;
+    justify-content: center;
 }
 
 .espaco-artes-futurismo1 {
-    height: 150px;
-    width: 250px;
     background-image: url(imagens/futurismo/depero-fortunato.webp);
     background-size:cover;
+    height: 150px;
+    width: 250px;
     z-index: 1;
     position: relative;
     top: 2rem;
 }
 
 .espaco-artes-futurismo2 {
-    height: 150px;
-    width: 250px;
     background-image: url(imagens/futurismo/depero.jpg);
     background-size:cover;
+    height: 150px;
+    width: 250px;
     position:relative;
     top: -3rem;
     left: -2rem;
     z-index: 0;
+}
+
+.espaco-artes-surrealismo1 {
+    background-image: url(imagens/surrealismo/nao-cachimbo.webp);
+    background-size:cover;
+    height: 150px;
+    width: 250px;
+    z-index: 1;
+    position: relative;
+    top: 2rem;
+}
+
+.espaco-artes-surrealismo2 {
+    background-image: url(imagens/surrealismo/salvador-dali.jpg);
+    background-size:cover;
+    height: 150px;
+    width: 250px;
+    position:relative;
+    top: -3rem;
+    left: -2rem;
+    z-index: 0;
+}
+
+.espaco-artes-cubismo1 {
+    background-image: url(imagens/cubismo/PicassoMulherChorandoDestaca.webp);
+    background-size:cover;
+    height: 150px;
+    width: 250px;
+    z-index: 1;
+    position: relative;
+    top: 2rem;
+}
+
+.espaco-artes-cubismo2 {
+    background-image: url(imagens/cubismo/Pablo-Picasso-cubismo.jpg);
+    background-size:cover;
+    height: 150px;
+    width: 250px;
+    position:relative;
+    top: -3rem;
+    left: -2rem;
+    z-index: 0;
+}
+
+.espaco-artes-expressionismo1 {
+    background-image: url(imagens/expressionismo/o-grito.jpg);
+    background-size:cover;
+    height: 150px;
+    width: 250px;
+    z-index: 1;
+    position: relative;
+    top: 2rem;
+}
+
+.espaco-artes-expressionismo2 {
+    background-image: url(imagens/expressionismo/van-gogh.jpg);
+    background-size:cover;
+    height: 150px;
+    width: 250px;
+    position:relative;
+    top: -3rem;
+    left: -2rem;
+    z-index: 0;
+}
+
+.espaco-artes-dadaismo1 {
+    background-image: url(imagens/dadaismo/mictorio.jpg);
+    background-size: contain;
+    background-position:bottom;
+    height: 150px;
+    width: 250px;
+    z-index: 1;
+    position: relative;
+    top: 2rem;
+}
+
+.espaco-artes-dadaismo2 {
+    background-image: url(imagens/dadaismo/francis-picabia.jpg);
+    background-size:cover;
+    height: 150px;
+    width: 250px;
+    position:relative;
+    top: -3rem;
+    left: -2rem;
+    z-index: 0;
+}
+
+.footer-pagina {
+    background-color: #471108;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-pagina p {
+    text-align: center;
 }
