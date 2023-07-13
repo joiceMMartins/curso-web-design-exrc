@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    background-color: #f4f8fb;
+}
+
+.cabecalho-pagina {
+    background-color: #AFD3E2;
+    padding-top: 3rem;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-totoro {
+    background-image: url(imagens/pngfind.com-studio-ghibli-logo-png-3859275.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+}
+
+.sobre-espaco-descricao-img {
+    background-image: url(imagens/miyazaki.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.sobre-espaco-descricao-img-studio {
+    background-image: url(imagens/pngfind.com-studio-ghibli-logo-png-3859275.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.sobre-espaco-descricao-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+}
+
+.sobre-espaco-descricao {
+    width: 80%;
+}
+
+.curiosidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.curiosidades-titulo {
+    font-size: 2.2rem;
+}
+
+.sobre {
+    width: 60%;
+    height: 200px;
+    overflow: auto;
+    border: 2px solid #192d38;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e8f0f6;
+    margin-top: 3.5rem;
+}
+
+.sobre-cabecalho {
+    display:flex;
+    width: 100%;
+    justify-content:space-around;
+    padding-top: 2rem;
+    background-color: #AFD3E2;
+}
+
+.sobre-cabecalho h1 {
+    display: flex;
+    align-items: center;
+    font-size: 2.3rem;
+}
+
+.sobre-descricao {
+    margin-top: 2rem;
+}
+
+.sobre-espaco-descricao-img-studio {
+    border: 1px solid #000;
+}
+
+.sobre::-webkit-scrollbar {
+    width: 5px;
+    height: 3px;
+}
+
+.sobre::-webkit-scrollbar-track {
+    background: transparent;
+    padding: 2px;
+  }
+  
+  .sobre::-webkit-scrollbar-thumb {
+    background-color: #192d38;
+  }
+
+ 
