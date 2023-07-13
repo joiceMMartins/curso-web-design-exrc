@@ -46,11 +46,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 0 2rem;
 }
 
 .curiosidades-titulo {
     font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 3rem;
 }
 
 .sobre {
@@ -65,6 +68,7 @@ body {
     background-color: #e8f0f6;
     margin-top: 3.5rem;
 }
+
 
 .sobre-cabecalho {
     display:flex;
@@ -102,4 +106,20 @@ body {
     background-color: #192d38;
   }
 
- 
+ .rodape-pagina {
+    background-color: #AFD3E2;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.titulo-filmes {
+    display: flex;
+    justify-content: center;
+}
+
+ .filmes {
+    display: flex;
+    justify-content: space-around;
+ }
