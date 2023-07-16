@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    color: white;
+}
+
+.cabecalho-pagina {
+    background-image: url(imagens/pexels-tan-danh-866496.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 2rem;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.cabecalho-pagina div h1 {
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+.cabecalho-pagina div p {
+    border-bottom: 2px solid white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+nav {
+    width: 100%;
+    position: relative;
+    top: 3.5rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style-type: none;
+    width: calc(100% / 4 - 20px);
+}
+
+.menu li a {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: white;
+}
+
+.menu li a:visited {
+    color: white;
+}
+
+
+.menu li a:hover {
+    border-top: 2px solid white;
+}
