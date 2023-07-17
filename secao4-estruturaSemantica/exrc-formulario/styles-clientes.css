@@ -8,6 +8,10 @@ body {
     color: white;
 }
 
+.subtitulo-pagina {
+    margin-top: 0;
+}
+
 .espaco-label {
     width: 130px;
 }
@@ -18,4 +22,67 @@ body {
 
 fieldset {
     width: 60%;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5rem 5rem;
+}
+
+form {
+    background-color: rgba(33, 109, 125, 0.5);
+    border-radius: 5px;
+    padding: 2rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.espaco-label-sobrenome, .espaco-label-numero {
+    margin-left: 5px;
+}
+
+fieldset {
+    margin-top: 10px;
+}
+
+.espaco-botoes {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.espaco {
+    margin-bottom: 5px;
+}
+
+.input-mes, .input-ano {
+    margin-left: 5px;
+}
+
+.input-cep-5, .input-cpf-9 {
+    margin-right: 5px;
+}
+
+.input-cep-3, .input-cpf-2 {
+    margin-left: 5px;
+}
+
+input, select {
+    background-color: #d6f5f7;
+    padding: 2px;
+    border-radius: 5px;
+    border: none;
+}
+
+.botao-limpar, .botao-enviar {
+    padding: 5px;
+    width: 6rem;
+    box-sizing: border-box;
 }
