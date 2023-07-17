@@ -10,6 +10,186 @@
     <title>Cadastro de cliente</title>
 </head>
 <body>
-    
+    <main>
+        <h1>
+            Bem-vindo
+        </h1>
+        <h2>
+            Preencha o formulário abaixo:
+        </h2>
+        <form action="">
+            <fieldset>
+                <legend>
+                    Dados pessoais
+                </legend>
+
+                <div class="espaco-nome-sobrenome">
+                    <div class="espaco-label">
+                        <label for="nome">
+                            Nome:
+                        </label>
+                    </div>
+                    <input type="text" name="nome" id="nome">
+                    <div class="espaco-label">
+                        <label for="sobrenome">
+                            Sobrenome:
+                        </label>
+                    </div>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+
+                <div class="espaco-data-nascimento">
+                    <div class="espaco-label">
+                        <label>Nascimento:   
+                        </label>
+                    </div>
+
+                    <input type="text" name="dia" size="2" maxlength="2" placeholder="dd">
+                    <input type="text" name="mes" size="2" maxlength="2" placeholder="mm">
+                    <input type="text" name="ano" size="4" maxlength="4" placeholder="aaaa">
+                 </div>
+
+                <div class="espaco-rg">
+                    <div class="espaco-label">
+                        <label for="rg">RG:
+                        </label>
+                    </div>
+                    <input type="text" name="rg" id="rg" size="13" maxlength="13">
+                </div>
+
+                <div class="espaco-cpf">
+                    <div class="espaco-label">
+                        <label>CPF:
+                        </label>
+                    </div>
+                    <input type="text" name="cpf" id="cpf size="9" maxlength="9""> - 
+                        <input type="text" name="cpf2" id="cpf-final" size="2" maxlength="2">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    Dados de endereço
+                </legend>
+
+                <div class="espaco-rua-numero">
+                    <div class="espaco-label">
+                        <label for="rua">Rua:
+                        </label>
+                    </div>
+                    <input type="text" id="rua" name="rua">
+                    <div class="espaco-label">
+                        <label for="numero">Número:
+                        </label>
+                    </div>
+                    <input type="text" id="numero" name="numero">
+                </div>
+
+                <div class="espaco-bairro">
+                    <div class="espaco-label">
+                        <label for="bairro">Bairro:
+                        </label>
+                    </div>
+                    <input type="text" id="bairro" name="bairro">
+                </div>
+
+                <div class="espaco-estado">
+                    <div class="espaco-label">
+                        <label for="estado">Estado:
+                        </label>
+                    </div>
+                    <select name="estado" id="estado">
+                        <option value="ac">Acre</option>
+                        <option value="al">Alagoas</option>
+                        <option value="am">Amazonas</option>
+                        <option value="ap">Amapá</option>
+                        <option value="ba">Bahia</option>
+                        <option value="ce">Ceará</option>
+                        <option value="df">Distrito Federal</option>
+                        <option value="es">Espírito Santo</option>
+                        <option value="go">Goiás</option>
+                        <option value="ma">Maranhão</option>
+                        <option value="mt">Mato Grosso</option>
+                        <option value="ms">Mato Grosso do Sul</option>
+                        <option value="mg">Minas Gerais</option>
+                        <option value="pa">Pará</option>
+                        <option value="pb">Paraíba</option>
+                        <option value="pr">Paraná</option>
+                        <option value="pe">Pernambuco</option>
+                        <option value="pi">Piauí</option>
+                        <option value="rj">Rio de Janeiro</option>
+                        <option value="rn">Rio Grande do Norte</option>
+                        <option value="ro">Rondônia</option>
+                        <option value="rs">Rio Grande do Sul</option>
+                        <option value="rr">Roraima</option>
+                        <option value="sc">Santa Catarina</option>
+                        <option value="se">Sergipe</option>
+                        <option value="sp">São Paulo</option>
+                        <option value="to">Tocantins</option>
+                        </select>
+                </div>
+
+                <div class="espaco-cidade">
+                    <div class="espaco-label">
+                        <label for="cidade">Cidade:
+                        </label>
+                    </div>
+                    <input type="text" id="cidade" name="cidade">
+                </div>
+
+                <div class="espaco-cep">
+                    <div class="espaco-label">
+                        <label for="cep">CEP:
+                        </label>
+                    </div>
+                    <input type="text" name="cep" id="cep" size="5" maxlength="5"> -
+                    <input type="text" name="cep2" id="cep2" size="3" maxlength="3">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    Dados de login
+                </legend>
+
+                <div class="espaco-email">
+                    <div class="espaco-label">
+                        <label for="email">E-mail:
+                        </label>
+                    </div>
+                    <input type="text" name="email" id="email">
+                </div>
+
+                <div class="espaco-login-usuario">
+                    <div class="espaco-label">
+                        <label for="login-usuario">Login:
+                        </label>
+                    </div>
+                    <input type="text" name="login0usuario" id="login-usuario">
+                </div>
+
+                <div class="espaco-senha-usuario">
+                    <div class="espaco-label">
+                        <label for="senha">Senha:
+                        </label>
+                    </div>
+                    <input type="password" name="senha" id="senha">
+                </div>
+
+                <div class="espaco-confirma-senha-usuario">
+                    <div class="espaco-label">
+                        <label for="confirma-senha" class="confirma-senha">Confirme a senha:
+                        </label>
+                    </div>
+                    <input type="password" name="confirma-senha" id="confirma-senha">
+                </div>
+
+            </fieldset>
+
+            <input type="submit">
+            <input type="button" value="Limpar">
+        </form>
+    </main>
 </body>
 </html>

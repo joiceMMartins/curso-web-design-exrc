@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-image: url(imagens/pexels-tan-danh-866496.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+    color: white;
+}
+
+.espaco-label {
+    width: 130px;
+}
+
+.espaco-nome-sobrenome, .espaco-data-nascimento, .espaco-rg, .espaco-cpf, .espaco-rua-numero, .espaco-bairro, .espaco-estado, .espaco-cidade, .espaco-cep, .espaco-email, .espaco-login-usuario, .espaco-senha-usuario, .espaco-confirma-senha-usuario {
+    display: flex;
+}
+
+fieldset {
+    width: 60%;
+}
