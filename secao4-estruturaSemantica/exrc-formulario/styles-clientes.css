@@ -16,7 +16,7 @@ body {
     width: 130px;
 }
 
-.espaco-nome-sobrenome, .espaco-data-nascimento, .espaco-rg, .espaco-cpf, .espaco-rua-numero, .espaco-bairro, .espaco-estado, .espaco-cidade, .espaco-cep, .espaco-email, .espaco-login-usuario, .espaco-senha-usuario, .espaco-confirma-senha-usuario {
+.espaco {
     display: flex;
 }
 
