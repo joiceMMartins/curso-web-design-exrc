@@ -1,0 +1,156 @@
+body {
+    background-color: #6a3968;
+    margin: 0;
+}
+
+h1, p, label, fieldset {
+    color: #f8eef9;
+}
+
+p, legend {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+label, .espaco-botoes input {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-shadow: 1px 1px #6a3968;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    text-align: center;
+}
+
+input, select, textarea {
+    background-color: #eac8ea;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+}
+
+.formulario-cliente div {
+    width: 100%;
+}
+
+.espaco-dados-cliente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+}
+
+ .espaco-dados-cliente input, select {
+    width: 70%;
+}
+
+.espaco-dados-cliente div {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.espaco-dados-cliente div .legenda-input {
+    width: 30%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.formulario-cliente {
+    background-color: #834681;
+    box-shadow: 5px 5px 10px #1c2535;
+    width: 65%;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.espaco-dados-cliente {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.espaco-dados-cliente legend {
+    margin-bottom: 2px;
+}
+
+.titulo-pagina {
+    text-align: center;
+    margin-top: 0;
+}
+
+.espaco-feedback {
+    margin-top: 10px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.espaco-botoes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.espaco-avalia-atendimento {
+    display: flex;
+    flex-direction: column;
+}
+
+.espaco-avalia-atendimento, .espaco-avalia-atendimento-texto {
+    width: 50%;
+}
+
+.espaco-avalia-atendimento-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.espaco-avalia-atendimento-texto label {
+    margin-bottom: 4px;
+}
+
+#texto-avaliacao {
+    width: 70%;
+    height: 60%;
+    resize: none;
+    margin-top: 1rem;
+}
+
+.espaco-botoes input {
+    padding: 10px;
+    width: 20%;
+    background-color: #391937;
+    border: 3px solid #391937;
+    text-align: center;
+    color: white;
+}
+
+.espaco-botoes input:hover {
+    background-color: #fcf7fc;
+    color: black;
+}
+
+.espaco-avalia-atendimento input[type="radio"]:checked {
+    background: green;
+}

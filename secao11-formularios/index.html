@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,800;1,900&family=Poppins:ital,wght@1,400;1,600&display=swap" rel="stylesheet">
+    <title>Feedback cliente</title>
+</head>
+
+<body>
+    <main>
+        <form action="#" method="get" class="formulario-cliente">
+            <h1 class="titulo-pagina">Pesquisa de satisfação do cliente</h1>
+            <fieldset class="espaco-dados-cliente">
+                <legend>
+                    Dados do cliente
+                </legend>
+
+                <div>
+                    <div class="legenda-input">
+                        <label for="nome">Primeiro nome:</label>
+                    </div>
+                    <input type="text" max="20" name="nome" id="nome">
+                </div>
+
+                <div>
+                    <div class="legenda-input">
+                        <label for="sobrenome">Sobrenome:</label>
+                    </div>
+                    <input type="text" max="100" name="sobrenome" id="sobrenome">
+                </div>
+
+                <div>
+                    <div class="legenda-input">
+                        <label for="email">E-mail:</label>
+                    </div>
+                    <input type="email" name="email" id="email" placeholder="exemplo@email.com">
+                </div>
+
+                <div>
+                    <div class="legenda-input">
+                        <label for="data-nascimento">Data de nascimento:</label>
+                    </div>
+                    <input type="date" name="data-nascimento" id="data-nascimento" min="1900-01-01" max="2023-01-01">
+                </div>
+
+                <div>
+                    <div class="legenda-input">
+                        <label for="cidade"">Cidade:</label>
+                    </div>
+                    <input type=" text" name="cidade" id="cidade">
+                </div>
+
+                <div>
+                    <div class="legenda-input">
+                        <label for="estado">Estado:</label>
+                    </div>
+                    <select name="estado" id="estado">
+                        <datalist id="estado">
+                            <option value="Acre">Acre</option>
+                            <option value="Alagoas">Alagoas</option>
+                            <option value="Amapá">Amapá</option>
+                            <option value="Amazonas">Amazonas</option>
+                            <option value="Bahia">Bahia</option>
+                            <option value="Ceará">Ceará</option>
+                            <option value="Espirito Santo">Espirito Santo</option>
+                            <option value="Goiás">Goiás</option>
+                            <option value="Maranhão">Maranhão</option>
+                            <option value="Mato Grosso">Mato Grosso</option>
+                            <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                            <option value="Minas Gerais">Minas Gerais</option>
+                            <option value="Pará">Pará</option>
+                            <option value="Paraíba">Paraíba</option>
+                            <option value="Paraná">Paraná</option>
+                            <option value="Pernambuco">Pernambuco</option>
+                            <option value="Piauí">Piauí</option>
+                            <option value="Rio de Janeiro">Rio de Janeiro</option>
+                            <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                            <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                            <option value="Rondônia">Rondônia</option>
+                            <option value="Roraima">Roraima</option>
+                            <option value="Santa Catarina">Santa Catarina</option>
+                            <option value="São Paulo">São Paulo</option>
+                            <option value="Sergipe">Sergipe</option>
+                            <option value="Tocantins">Tocantins</option>
+                            </datalist>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset class="espaco-feedback">
+                <legend>
+                    Feedback
+                </legend>
+
+                <div class="espaco-avalia-atendimento">
+                    <p>Como você avalia nosso atendimento?</p>
+        
+                    <div>
+                        <input type="radio" name="avalia-atendimento" value="excelente" id="excelente">
+                        <label for="excelente">Excelente</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="avalia-atendimento" value="muito-bom" id="muito-bom">
+                        <label for="muito-bom">Muito bom</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="avalia-atendimento" value="bom" id="bom">
+                        <label for="bom">Bom</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="avalia-atendimento" value="ruim" id="ruim">
+                        <label for="ruim">Ruim</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="avalia-atendimento" value="péssimo" id="pessimo">
+                         <label for="pessimo">Péssimo</label>
+                    </div>
+                </div>
+
+                <div class="espaco-avalia-atendimento-texto">
+                    <p>Explique o motivo dessa avaliação:</p>
+                    <textarea name="texto-avaliacao" id="texto-avaliacao" maxlength="160"></textarea>
+                </div>
+            </fieldset>
+
+            <div class="espaco-botoes">
+                <input type="submit">
+                <input type="reset" value="Limpar">
+            </div>
+
+        </form>
+    </main>
+</body>
+
+</html>
