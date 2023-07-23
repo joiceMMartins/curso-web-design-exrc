@@ -1,0 +1,210 @@
+body {
+    font-size: 62,5%;
+    margin: 0;
+    padding: 0;
+    background-color: #fffbc5;
+}
+
+.titulo {
+    font-family: 'Playfair Display', serif;
+}
+
+.texto {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho-pagina {
+    height: 6rem;
+    background-color: #343b00;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho-pagina-titulo {
+    color: #fffbc5;
+    display: flex;
+    align-items: center;
+    font-size: 2.3rem;
+}
+
+.cabecalho-pagina-navegacao {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-pagina-navegacao ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    width: 40rem;
+}
+
+.cabecalho-pagina-navegacao ul li {
+    list-style-type: none;
+    text-align: center;
+    width: calc(40rem / 3);
+}
+
+.cabecalho-pagina-navegacao ul li a {
+    text-decoration: none;
+    color: #fffbc5;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.cabecalho-pagina-navegacao ul li a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.cabecalho-pagina-navegacao ul li a:hover {
+    background-color: #abb500;
+    border-radius: 5px;
+    padding: 6px;
+    color: #343b00;
+    font-weight: bold;
+}
+
+.imagem-modelo {
+    background-image: url(imagens/pexels-marcela-alessandra-3307058.jpg);
+    background-position: center;
+    background-size: 100%;
+    height: calc(90vh - 6rem);
+}
+
+.momentos-e-imagens {
+    padding-bottom: 8rem;
+}
+
+.art-momentos-especiais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 6rem;
+}
+
+.art-momentos-especiais-espaco-titulo {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    color:#343b00;
+}
+
+.art-momentos-especiais-espaco-texto {
+    display: flex;
+    justify-content: center;
+    color:#343b00;
+}
+
+.art-momentos-especiais-texto {
+    width: 70%;
+    line-height: 30px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.art-imagens-modelos {
+    display: flex;
+    justify-content: center;
+}
+
+.art-imagens-modelos-div {
+    width: 70%;
+    display: flex;
+}
+
+.art-imagens-modelos-espaco {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.art-imagens-modelos-espaco h2, .art-imagens-modelos-espaco p {
+    text-align: center;
+    color:#343b00;
+}
+
+.art-imagens-modelos-espaco h2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.art-imagens-modelos-espaco p{
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+
+.art-imagens-modelos-div-img {
+    width: 80%;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 8px #343b00;
+    transition-property: width, border-radius;
+    transition-duration: 1s;
+}
+
+.art-imagens-modelos-div-img:hover {
+    width: 90%;
+    border-radius: 100px;
+}
+
+.modelo1 {
+    background-image: url(imagens/pexels-saumen-bhowmik-manty-12148036.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.modelo2 {
+    background-image: url(imagens/pexels-murphy-bavinga-4065859.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.modelo3 {
+    background-image: url(imagens/pexels-marcela-alessandra-3307058.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.art-detalhes-importam {
+    background-color: #656c08;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+}
+
+.art-detalhes-importam-espaco {
+    width: 70%;
+}
+
+.art-detalhes-importam-titulo {
+    font-size: 3rem;
+    color: #fffbc5;
+    text-shadow: 3px -1px #343b00;
+    text-transform: uppercase;
+}
+
+.art-detalhes-importam-texto {
+    width: 70%;
+    font-size: 1.3rem;
+    color: #fffbc5;
+}
+
+.rodape-pagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color: #343b00;
+}
+.rodape-pagina p {
+    color: #fffbc5;
+}
