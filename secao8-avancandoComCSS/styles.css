@@ -1,8 +1,13 @@
+:root {
+    --verde-escuro: #343b00;
+    --cor-clara: #fffbc5;
+}
+
 body {
     font-size: 62,5%;
     margin: 0;
     padding: 0;
-    background-color: #fffbc5;
+    background-color: var(--cor-clara);
 }
 
 .titulo {
@@ -15,14 +20,14 @@ body {
 
 .cabecalho-pagina {
     height: 6rem;
-    background-color: #343b00;
+    background-color: var(--verde-escuro);
     box-sizing: border-box;
     display: flex;
     justify-content: space-around;
 }
 
 .cabecalho-pagina-titulo {
-    color: #fffbc5;
+    color: var(--cor-clara);
     display: flex;
     align-items: center;
     font-size: 2.3rem;
@@ -48,7 +53,7 @@ body {
 
 .cabecalho-pagina-navegacao ul li a {
     text-decoration: none;
-    color: #fffbc5;
+    color: var(--cor-clara);
     text-transform: uppercase;
     font-size: 1.2rem;
     transition-property: all;
@@ -64,7 +69,7 @@ body {
     background-color: #abb500;
     border-radius: 5px;
     padding: 6px;
-    color: #343b00;
+    color: var(--verde-escuro);
     font-weight: bold;
 }
 
@@ -92,13 +97,13 @@ body {
     width: 100%;
     text-align: center;
     font-size: 3rem;
-    color:#343b00;
+    color:var(--verde-escuro);
 }
 
 .art-momentos-especiais-espaco-texto {
     display: flex;
     justify-content: center;
-    color:#343b00;
+    color: var(--verde-escuro);
 }
 
 .art-momentos-especiais-texto {
@@ -127,7 +132,7 @@ body {
 
 .art-imagens-modelos-espaco h2, .art-imagens-modelos-espaco p {
     text-align: center;
-    color:#343b00;
+    color:var(--verde-escuro);
 }
 
 .art-imagens-modelos-espaco h2 {
@@ -144,7 +149,7 @@ body {
     width: 80%;
     height: 500px;
     border-radius: 5px;
-    box-shadow: 2px 3px 8px #343b00;
+    box-shadow: 2px 3px 8px var(--verde-escuro);
     transition-property: width, border-radius;
     transition-duration: 1s;
 }
@@ -187,15 +192,15 @@ body {
 
 .art-detalhes-importam-titulo {
     font-size: 3rem;
-    color: #fffbc5;
-    text-shadow: 3px -1px #343b00;
+    color: var(--cor-clara);
+    text-shadow: 3px -1px var(--verde-escuro);
     text-transform: uppercase;
 }
 
 .art-detalhes-importam-texto {
     width: 70%;
     font-size: 1.3rem;
-    color: #fffbc5;
+    color: var(--cor-clara);
 }
 
 .rodape-pagina {
@@ -203,8 +208,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 6rem;
-    background-color: #343b00;
+    background-color: var(--verde-escuro);
 }
 .rodape-pagina p {
-    color: #fffbc5;
+    color: var(--cor-clara);
 }
