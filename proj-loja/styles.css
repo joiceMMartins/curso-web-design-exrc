@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background-color: #fdfee8;
+}
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    color: #855d0e;
+}
+
+a {
+    font-family: 'DM Serif Display', serif;
+    color: #855d0e;
+}
+
+a:active {
+    color: #855d0e;
+}
+
+.cabecalho-pagina {
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fbfec3;
+}
+
+.icone-titulo-pagina {
+    display: flex;
+}
+
+.icone-titulo-pagina img {
+    width: 80px;
+}
+
+.icone-titulo-pagina h1 {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.menu-navegacao {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.menu-navegacao__lista {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.menu-navegacao__item {
+    width: calc(100% / 4);
+    display: flex;
+    justify-content: center;
+}
+
+.menu-navegacao__item a {
+    text-decoration: none;
+    color: #855d0e;
+    font-weight: bold;
+}
+
+.menu-navegacao__item a:hover {
+    color: #ead208;
+}
+
+.espaco-imagem {
+    height: calc(90vh - 90px);
+    background-image: url(imagens/colagem-de-animal-de-estimacao-bonito-isolada.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sobre-minha-loja-pet__titulo {
+    text-align: center;
+    font-size: 2.5rem;
+}
+.espaco-sobre-minha-loja-pet {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.imagem-mulher-e-cachorro {
+    width: 300px;
+    float: left;
+    box-shadow: 0 0 10px black;
+}
+
+
+.espaco-sobre-minha-loja-pet__texto {
+    width: 70%;
+    margin-left: 320px;
+}
+
+.div-sobre-minha-loja-pet {
+    padding: 40px 80px;
+}
+
+.espaco-nossos-produtos__titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+}
+
+.espaco-nossos-produtos {
+    background-color: #ead208;
+    height: 80vh;
+}
