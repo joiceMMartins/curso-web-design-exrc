@@ -3,12 +3,7 @@ body {
     background-color: #fdfee8;
 }
 
-h1 {
-    font-family: 'DM Serif Display', serif;
-    color: #855d0e;
-}
-
-a {
+h1, a {
     font-family: 'DM Serif Display', serif;
     color: #855d0e;
 }
@@ -77,7 +72,7 @@ main {
 }
 
 .formulario {
-    background-color: #ead208;
+    background-color: #fcfe8a;
     padding: 2rem;
     width: 70%;
     border-radius: 10px;
@@ -93,12 +88,39 @@ fieldset {
 legend {
     text-align: center;
     font-size: 1.2rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #855d0e;
+    padding-bottom: .5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+legend, label, input[type="submit"], input[type="button"], .subtitulo-pagina {
+    font-family: 'Poppins', sans-serif;
+    color: #855d0e;
+}
+
+input[type="submit"], input[type="button"]{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.espaco-label {
+    display: flex;
+    align-items: center;
+}
+
+.div-legend {
+    width: 100%;
 }
 
 input, select {
-    padding: 6px;
+    padding: 10px;
     border: none;
     border-radius: 5px;
+    background-color: #fdfee8;
+    
+    margin-bottom: 1rem;
 }
 
 .espaco {
@@ -110,7 +132,34 @@ input, select {
     width: 30%;
 }
 
-input {
+input, select {
     width: 70%;
-    margin-bottom: 1rem;
+}
+
+.div-cep, .div-cpf {
+    display: flex;
+    gap: .5rem;
+    width: 73.5%;
+}
+
+.espaco-botoes {
+    display: flex;
+}
+
+.espaco-botoes div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+input[type="button"], input[type="submit"] {
+    background-color: #ead208;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover {
+    background: transparent;
+    outline: 2px solid #ead208;
+    cursor: pointer;
+    color: #855d0e;
 }

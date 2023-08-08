@@ -47,16 +47,18 @@
     </header>
     <main>
         <h1>
-            Bem-vindo
+            Bem-vindo(a)!
         </h1>
         <h2 class="subtitulo-pagina">
             Preencha o formulário abaixo:
         </h2>
         <form action="" class="formulario">
             <fieldset>
-                <legend>
-                    Dados pessoais
-                </legend>
+                <div class="div-legend">
+                    <legend>
+                        Dados pessoais
+                    </legend>
+                </div>
 
                 <div class="espaco-nome espaco">
                     <div class="espaco-label">
@@ -64,7 +66,7 @@
                             Nome:
                         </label>
                     </div>
-                    <input type="text" name="nome" id="nome">
+                    <input type="text" name="nome" id="nome" autofocus>
                 </div>
                 
                 <div class="espaco-sobrenome espaco">
@@ -90,7 +92,7 @@
                         <label for="rg">RG:
                         </label>
                     </div>
-                    <input type="text" name="rg" id="rg" size="13" maxlength="13">
+                    <input type="text" name="rg" id="rg" size="13" maxlength="13" placeholder="xxxxxxxx">
                 </div>
 
                 <div class="espaco-cpf espaco">
@@ -98,15 +100,19 @@
                         <label>CPF:
                         </label>
                     </div>
-                    <input type="text" name="cpf" class="input-cpf-9" id="cpf size="9" maxlength="9""> - 
-                    <input type="text" name="cpf2" class="input-cpf-2" id="cpf-final" size="2" maxlength="2">
+                    <div class="div-cpf">
+                        <input type="text" name="cpf" class="input-cpf-9" id="cpf size="9" maxlength="9"" placeholder="xxx.xxx.xxx"> - 
+                        <input type="text" name="cpf2" class="input-cpf-2" id="cpf-final" size="2" maxlength="2" placeholder="xx">
+                    </div>
                 </div>
             </fieldset>
 
             <fieldset>
-                <legend>
-                    Dados de endereço
-                </legend>
+                <div class="div-legend">
+                    <legend>
+                        Dados de endereço
+                    </legend>
+                </div>
 
                 <div class="espaco-rua espaco">
                     <div class="espaco-label">
@@ -181,23 +187,27 @@
                         <label for="cep">CEP:
                         </label>
                     </div>
-                    <input type="text" name="cep" class="input-cep-5" id="cep" size="5" maxlength="5"> -
-                    <input type="text" name="cep2" class="input-cep-3" id="cep2" size="3" maxlength="3">
+                    <div class="div-cep">
+                        <input type="text" name="cep" class="input-cep-5" id="cep" size="5" maxlength="5" placeholder="xxxxx"> -
+                        <input type="text" name="cep2" class="input-cep-3" id="cep2" size="3" maxlength="3" placeholder="xxx">
+                    </div>
                 </div>
 
             </fieldset>
 
             <fieldset>
-                <legend>
-                    Dados de login
-                </legend>
+                <div class="div-legend">
+                    <legend>
+                        Dados de login
+                    </legend>
+                </div>
 
                 <div class="espaco-email espaco">
                     <div class="espaco-label">
                         <label for="email">E-mail:
                         </label>
                     </div>
-                    <input type="text" name="email" id="email">
+                    <input type="text" name="email" id="email" placeholder="exemplo@email.com">
                 </div>
 
                 <div class="espaco-login-usuario espaco">
