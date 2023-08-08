@@ -3,13 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-seus-dados.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles-clientes.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:ital,wght@1,400;1,600&display=swap"
+        rel="stylesheet">
     <title>Cadastro de cliente</title>
 </head>
 <body>
+    <header class="cabecalho-pagina">
+        <div class="icone-titulo-pagina">
+            <img src="imagens/dog-food.png" alt="pote de ração">
+            <h1>
+                Minha Loja Pet
+            </h1>
+        </div>
+
+        <nav class="menu-navegacao">
+            <ul class="menu-navegacao__lista">
+                <li class="menu-navegacao__item">
+                    <a href="index.html">
+                        Nossa loja
+                    </a>
+                </li>
+                <li class="menu-navegacao__item">
+                    <a href="seus-dados.html">
+                        Seus dados
+                    </a>
+                </li>
+                <li class="menu-navegacao__item">
+                    <a href="#">
+                        Contato
+                    </a>
+                </li>
+                <li class="menu-navegacao__item">
+                    <a href="trabalhe-conosco.html">
+                        Trabalhe conosco
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <h1>
             Bem-vindo
@@ -17,19 +52,22 @@
         <h2 class="subtitulo-pagina">
             Preencha o formulário abaixo:
         </h2>
-        <form action="">
+        <form action="" class="formulario">
             <fieldset>
                 <legend>
                     Dados pessoais
                 </legend>
 
-                <div class="espaco-nome-sobrenome espaco">
+                <div class="espaco-nome espaco">
                     <div class="espaco-label">
                         <label for="nome">
                             Nome:
                         </label>
                     </div>
                     <input type="text" name="nome" id="nome">
+                </div>
+                
+                <div class="espaco-sobrenome espaco">
                     <div class="espaco-label espaco-label-sobrenome">
                         <label for="sobrenome">
                             Sobrenome:
@@ -44,9 +82,7 @@
                         </label>
                     </div>
 
-                    <input type="text" name="dia" class="input-dia" size="2" maxlength="2" placeholder="dd"> 
-                    <input type="text" name="mes" class="input-mes" size="2" maxlength="2" placeholder="mm"> 
-                    <input type="text" name="ano" class="input-ano" size="4" maxlength="4" placeholder="aaaa"> 
+                    <input type="date">
                  </div>
 
                 <div class="espaco-rg espaco">
@@ -72,12 +108,15 @@
                     Dados de endereço
                 </legend>
 
-                <div class="espaco-rua-numero espaco">
+                <div class="espaco-rua espaco">
                     <div class="espaco-label">
                         <label for="rua">Rua:
                         </label>
                     </div>
                     <input type="text" id="rua" name="rua">
+                </div>
+
+                <div class="espaco-numero espaco">
                     <div class="espaco-label espaco-label-numero">
                         <label for="numero">Número:
                         </label>
