@@ -3,7 +3,12 @@ body {
     background-color: #fdfee8;
 }
 
-h1, a {
+h1 {
+    font-family: 'DM Serif Display', serif;
+    color: #855d0e;
+}
+
+a {
     font-family: 'DM Serif Display', serif;
     color: #855d0e;
 }
@@ -64,19 +69,21 @@ a:active {
 }
 
 main {
-    padding: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 3rem;
     padding-bottom: 5rem;
 }
 
-.formulario {
+form {
     background-color: #fcfe8a;
     padding: 2rem;
     width: 70%;
     border-radius: 10px;
     box-shadow: 1px 2px 10px #caa504;
+    font-family: 'Poppins', sans-serif;
+    color:#855d0e;
 }
 
 fieldset {
@@ -88,78 +95,80 @@ fieldset {
 
 legend {
     text-align: center;
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-    border-bottom: 2px solid #855d0e;
-    padding-bottom: .5rem;
-    text-transform: uppercase;
+    padding-bottom: 2rem;
     font-weight: 600;
-}
-
-legend, label, input[type="submit"], input[type="button"], .subtitulo-pagina {
-    font-family: 'Poppins', sans-serif;
-    color: #855d0e;
-}
-
-input[type="submit"], input[type="button"]{
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.espaco-label {
-    display: flex;
-    align-items: center;
 }
 
 .div-legend {
     width: 100%;
+    height: 2rem;
+    border-bottom: 2px solid #855d0e;
+    margin-bottom: 2rem;
 }
 
-input, select {
+.conteudo-formulario {
+    width: 80%;
+}
+
+.conteudo-formulario div {
+    display: flex;
+}
+
+input, textarea {
     padding: 10px;
+    background-color: #fdfee8;
     border: none;
     border-radius: 5px;
-    background-color: #fdfee8;
-    margin-bottom: 1rem;
-}
-
-.espaco {
-    display: flex;
-    width: 70%;
+    color:#855d0e;
 }
 
 .espaco-label {
-    width: 30%;
-}
-
-input, select {
-    width: 70%;
-}
-
-.div-cep, .div-cpf {
+    width: 40%;
     display: flex;
-    gap: .5rem;
-    width: 73.5%;
+    align-items: center;
 }
 
-.espaco-botoes {
-    display: flex;
+.espaco-input {
+    width: 60%;
+    margin-bottom: 2rem;
 }
 
-.espaco-botoes div {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    padding-top: 1rem;
+input, textarea {
+    width: 100%;
 }
 
-input[type="button"], input[type="submit"] {
-    background-color: #ead208;
+textarea {
+    resize: none;
 }
 
-input[type="button"]:hover, input[type="submit"]:hover {
-    background: transparent;
+input[type="submit"] {
+    background-color:#caa504;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+input[type="submit"]:hover {
+    background-color: transparent;
     outline: 2px solid #ead208;
     cursor: pointer;
     color: #855d0e;
+}
+
+@media screen and (max-width: 480px) {
+
+    .menu-navegacao {
+        display: none;
+    }
+
+    .conteudo-formulario div {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .espaco-label {
+        margin-bottom: .5rem;
+    }
+    
+
 }
