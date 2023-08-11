@@ -15,3 +15,24 @@ if(media < 5) {
 } else {
 		alert("Aprovado!");
 }
+
+/*
+Pedir para o usuário digitar um número de 1 a 6.
+Mostrar na tela uma mensagem diferente para cada número
+*/
+
+var numero = parserInt(prompt("Digite um número"));
+
+switch(numero) {
+    case 1:
+        alert("Você escolheu o número um.");
+        break;
+    case 2:
+        alert("Você escolheu o número dois.");
+        break;
+    case 3:
+        alert("Você escolheu o número três.");
+        break;
+    default:
+        alert("Você escolheu um número maior que três!");
+}
