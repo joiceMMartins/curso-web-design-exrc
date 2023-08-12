@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="calcular('+')">+</button>
+    <button onclick="calcular('-')">-</button>
+    <button onclick="calcular('*')">*</button>
+    <button onclick="calcular('/')">/</button>
+
+    <div id="resultado-conta">
+
+    </div>
+
+
+    <script>
+
+        var primeiroNum = parseFloat(prompt("Digite um número: "));
+        var segundoNum = parseFloat(prompt("Digite outro número: "));
+        var resultadoCalculo = 0;
+
+        var resultadoConta = document.querySelector("#resultado-conta");
+
+        function calcular(opcaoDeCalculo) {
+
+            resultadoConta.innerHTML = "";
+
+            switch(opcaoDeCalculo){
+                case '+':
+                    resultadoCalculo = primeiroNum + segundoNum;
+                    break;
+                case '-':
+                    resultadoCalculo = primeiroNum - segundoNum;
+                    break;
+                case '*':
+                    resultadoCalculo = primeiroNum * segundoNum;
+                    break;  
+                case '/':
+                     resultadoCalculo = primeiroNum / segundoNum;
+                    break;
+            }
+                resultadoConta.innerHTML = resultadoCalculo;
+        }
+
+    </script>
+</body>
+</html>
